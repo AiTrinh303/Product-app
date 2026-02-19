@@ -12,14 +12,20 @@
 
 ### Backend
 cd backend
+
 cp .env.example .env   # Fill MongoDB URI and JWT secret
+
 npm install
+
 npm run seed           # Seed sample data
+
 npm run dev            # Run at http://localhost:5000
 
 ### Frontend
 cd frontend
+
 npm install
+
 npm run dev            # Run at http://localhost:5173
 
 ## API Endpoints
